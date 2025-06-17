@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <arpa/inet.h>  // For socket functions and structures
-
+#include <unistd.h>
 #define PORT 8080
 #define BUFFER_SIZE 1024
 

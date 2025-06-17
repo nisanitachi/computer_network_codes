@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <arpa/inet.h>  // For socket functions and structures
+#include <unistd.h>
 
 #define SERVER_PORT 8080
 #define SERVER_IP "127.0.0.1"  // Localhost
